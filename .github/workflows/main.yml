@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kz110/${{ env.REPO }}:${{ github.sha }}
+          tags: kz110/aipi:${{ github.sha }}
           file: ./Dockerfile
           
      # - name: Publish to Docker Hub
